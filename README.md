@@ -35,6 +35,8 @@ npm start
 
 Isso iniciará o servidor local em http://localhost:3000.
 
+Projeto disponível em: https://vercel.com/tiagozay/tela-pdv-react
+
 
 
 
