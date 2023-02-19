@@ -2,7 +2,7 @@
 
 Esse é um projeto desenvolvido em React para uma tela de PDV (Ponto de Venda). Ele foi criado como parte do aprendizado de React, utilizando os hooks `useState`, `useEffect` e `useRef`. 
 
-<!-- ![PDV](./pdv.png) -->
+![PDV](./pdv.png)
 
 ## Funcionalidades
 
