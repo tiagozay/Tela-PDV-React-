@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import CamposDeBuscaParaProdutos from "./components/CamposDeBuscaParaProdutos";
 import InformacoesFinaisDaVenda from "./components/InformacoesFinaisDaVenda";
 import ListaDeProdutosEncontrados from "./components/ListaDeProdutosEncontrados";
-import ListaProdutosPassados from "./components/ProdutosPassados";
+import ListaProdutosPassados from "./components/ListaProdutosPassados";
 
 const produtos = [
     {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":295, codigo:"7892840233945", descricao:"SALGADINHO FANDANGOS PRESUNTO"},
