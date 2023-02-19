@@ -56,7 +56,6 @@ const ListaProdutosPassados = ({produtosPassados, aoDiminuirQuantidade, aoAument
                     {
                       produtosPassados.map( produto => 
                         <tr className="lista-de-produtos-passados__tabela__produto" key={produto.id}>
-                        <td className="lista-de-produtos-passados__tabela__produto__id">{produto.id_produto_estoque}</td>
                             <td className="lista-de-produtos-passados__tabela__produto__codigo">{produto.codigo}</td>
                             <td className="lista-de-produtos-passados__tabela__produto__descricao">{produto.descricao}</td>
                             <td className="lista-de-produtos-passados__tabela__produto__un">{produto.un}</td>
@@ -93,10 +92,10 @@ const ListaProdutosPassados = ({produtosPassados, aoDiminuirQuantidade, aoAument
                                 
                             </td>
                             <td className="lista-de-produtos-passados__tabela__produto__vlunitario">
-                                {produto.valor}
+                                {produto.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                             </td>
                             <td className="lista-de-produtos-passados__tabela__produto__vltotal">
-                                {produto.total}
+                                {produto.total.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}
                             </td>
                             <td className="lista-de-produtos-passados__tabela__produto__acoes">
                                 <button id="lista-de-produtos-passados__tabela__produto__btn-remover" className="material-icons btn-produto-passado" onClick={() => {aoRemoverProduto(produto.id)}}>delete</button>

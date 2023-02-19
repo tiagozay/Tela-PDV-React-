@@ -9,7 +9,7 @@ const ListaDeProdutosEncontrados = ({produtosEncontrados, aoSelecionarProduto}) 
                         <div className="produto__codigo">{produto.codigo}</div>
                         <div className="produto__descricao">{produto.descricao}</div>
                         <div className="produto__un">{produto.un}</div>
-                        <div className="produto__preco">{produto.valor}</div>
+                        <div className="produto__preco">{produto.valor.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}</div>
                         <div className="produto__quantidade-disponivel">{produto.qtdeDisponivel} disponíveis</div>
                     </li> 
                 )}

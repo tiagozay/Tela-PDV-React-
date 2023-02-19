@@ -6,17 +6,17 @@ import ListaProdutosPassados from "./components/ProdutosPassados";
 
 const produtos = [
     {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":295, codigo:"7892840233945", descricao:"SALGADINHO FANDANGOS PRESUNTO"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":298, codigo:"7898043912113", descricao:"SORVETE FLOCOS SORVETES FROSTY POTE 1L"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":299, codigo:"7892840800079", descricao:"REFRIGERANTE PEPSI"},
+    {un: "UN", valor: 15.50, qtdeDisponivel: 20, "id":298, codigo:"7898043912113", descricao:"SORVETE FLOCOS SORVETES FROSTY POTE 1L"},
+    {un: "UN", valor: 6.99, qtdeDisponivel: 20, "id":299, codigo:"7892840800079", descricao:"REFRIGERANTE PEPSI"},
     {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":290, codigo:"7892840221843", descricao:"SALGADINHO DORITOS QUEIJO NACHO"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":289, codigo:"7896019603430", descricao:"BIS LACTA CAIXA"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":209, codigo:"7898179370047", descricao:"ACUCAR CRISTAL CEDRO 5KG"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":159, codigo:"7898142865082", descricao:"CHOC TORTUGUITA 15,5G BRIGADEIRO"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":81, codigo:"7897453700136", descricao:"REFRIG RIO BRANCO GUARAN\u00c1 2L"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":82, codigo:"7897076023391", descricao:"LEITE COND BAO DE MINAS TP 395G"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":49, codigo:"7622300119652", descricao:"FERMENTO QU\u00cdMICO P\u00d3 ROYAL POTE 250G"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":50, codigo:"7896383300096", descricao:"VINAGRE DE ALCOOL CLARO"},
-    {un: "UN", valor: 5.50, qtdeDisponivel: 20, "id":169, codigo:"7894900027013", descricao:"REFRIGERANTE COCA-COLA ORIGINAL GARRAFA 2L"},
+    {un: "UN", valor: 4.30, qtdeDisponivel: 20, "id":289, codigo:"7896019603430", descricao:"BIS LACTA CAIXA"},
+    {un: "UN", valor: 12.90, qtdeDisponivel: 20, "id":209, codigo:"7898179370047", descricao:"ACUCAR CRISTAL CEDRO 5KG"},
+    {un: "UN", valor: 9.75, qtdeDisponivel: 20, "id":159, codigo:"7898142865082", descricao:"CHOC TORTUGUITA 15,5G BRIGADEIRO"},
+    {un: "UN", valor: 6.30, qtdeDisponivel: 20, "id":81, codigo:"7897453700136", descricao:"REFRIG RIO BRANCO GUARAN\u00c1 2L"},
+    {un: "UN", valor: 4.25, qtdeDisponivel: 20, "id":82, codigo:"7897076023391", descricao:"LEITE COND BAO DE MINAS TP 395G"},
+    {un: "UN", valor: 8.90, qtdeDisponivel: 20, "id":49, codigo:"7622300119652", descricao:"FERMENTO QU\u00cdMICO P\u00d3 ROYAL POTE 250G"},
+    {un: "UN", valor: 3.30, qtdeDisponivel: 20, "id":50, codigo:"7896383300096", descricao:"VINAGRE DE ALCOOL CLARO"},
+    {un: "UN", valor: 7.50, qtdeDisponivel: 20, "id":169, codigo:"7894900027013", descricao:"REFRIGERANTE COCA-COLA ORIGINAL GARRAFA 2L"},
 ];
 
 
